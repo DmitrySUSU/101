@@ -1,0 +1,12 @@
+import random
+
+X=random.randint(-100,100)
+print("X= " +str(X))
+a=random.randint(-100,100)
+b=random.randint(-100,100)
+if b>a:
+    print("[a,b]= " + "[" + str(a) + "," + str(b) + "]")
+    if a <= X and X  X or X > b:
+        print("The number not belongs to the span")
+elif a>b:
+    print("ERROR")
